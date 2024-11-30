@@ -1,0 +1,15 @@
+.not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80vw;
+}
+
+.not-found a {
+    color: tomato;
+    margin-top: 20px;
+}
