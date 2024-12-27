@@ -1,5 +1,8 @@
 .cartitems{
-   margin: 100px 170px;
+   margin: auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   width: 80vw;
 }
 
 .cartitems hr{
@@ -27,7 +30,8 @@
 }
 .cartitems-remove-icon{
    width: 15px;
-   margin: 0 40px;
+   /* margin: 0 40px; */
+   height: 15px;
    cursor: pointer;
 }
 .cartitems-quantity{
@@ -72,7 +76,7 @@
    color: #555;
 }
 .cartitems-promobox{
-   width: 504px;
+   width: 500px;
    margin-top: 15px;
    padding-left: 20px;
    height: 58px;
@@ -93,4 +97,33 @@
    background: black;
    color: white;
    cursor: pointer;
+   padding-left: -24px;
+}
+.add {
+    display: flex;
+    gap: 20px;
+}
+
+@media(max-width: 768px) {
+    .cartitems {
+        margin: auto;
+    }
+.header {
+    display: none;
+}
+    .cartitems-format {
+        /* overflow: scroll; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartitems-down {
+        flex-direction: column;
+        margin: auto;
+        padding: 0 5px;
+        width: 90vw;
+    }
+    .cartitems-total {
+        margin-right: 0;
+    }
 }
